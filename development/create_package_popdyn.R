@@ -37,10 +37,10 @@ usethis::use_build_ignore(c("backup", "data-raw", "development", "examples"))
 # Document data:
 # https://r-pkgs.org/data.html
 
-install_github("peterhellstrom/sweapi")
+install_github("peterhellstrom/popdyn")
 
 ## Load package ----
-library(sweapi)
+library(popdyn)
 
 ## Data sets ----
 usethis::use_data_raw()
